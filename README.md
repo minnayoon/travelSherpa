@@ -1,7 +1,7 @@
 # travelSherpa
 ##*Let Travel Sherpa plan your next adventure!*
 
-###Welcome to the hub of the Travel Sherpa App. Please feel free to take a look around, fork, be inspired, share your ideas and contributions. This should be fun!
+###Welcome to the hub of the Travel Sherpa App. Please feel free to take a look around, fork, share your ideas and contributions. This should be fun!
 
 ----
 ##What Now?
