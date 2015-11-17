@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minna Yoon's portfolio</title>
+	<link rel="stylesheet" type="text/css" href="Minna.style.css">
+</head>
+
+<header>
+	<div class="image">
+		<img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/196908_147868228611339_6990223_n.jpg?oh=9bc51a76a25bf3f520c319f431508bbb&oe=56EFCB45"; alt = "Sky"; width="100%"; height = "300";/>
+		<h1>Minna Yoon <br />  Naturopathic Doctor, Licensed Acupuncturist</h1>
+	</div>
+</header>
+
+<body>
+
+	<div class= "Left">
+		<img src="https://s3-media2.fl.yelpcdn.com/buphoto/tyCjpXbMG3MwkyKPUbje-A/o.jpg"; id = "MyPicture"; width= "200"; height= "300";/>
+		<div id="button">
+		<button type="button" onclick= "randomFacts()">Random fact about me</button></div>
+		<p id = "rFact">
+		</p>
+		<div>
+		<img src="C:\Users\Minna\Pictures\lotus.jpg"; alt = "lotus"; width="200"; height = "150";/>
+		</div>
+	
+	</div>	
+
+
+	<!-- <div class = "Content">
+		<p>
+		<h2>Profile</h2>
+		There is never enough time to learn all the amazing wonders of life:  how the human body functions, traditional herbal therapies and healing practices, food and ecology, and modern technology.  
+		</p>
+
+	</div>
+ -->
+	
+		
+	<div class= "Right">
+
+		<p><a href="http://www.baynaturalmedicine.com" target="_blank"><img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfp1/v/t1.0-9/199465_147372688660893_4168549_n.jpg?oh=6d89502c93ea4401606bec5fa791cb60&oe=56C4FE17"; id="bnm"; width="150"; height="75"></a></p>
+
+		<p><a href="http://www.calnd.org/index.asp" target="_blank"><img src="http://www.calnd.org/images/content/logo.png"; id="calnd";></a></p>
+
+		<p><a href="https://www.mevident.com/" target="_blank"><img src = "https://www.mevident.com/app/themes/threecol/img/logo_mev.png"; id="mev";></a></p>
+
+		<p><a href="http://www.bastyr.edu/" target="_blank"><img src="http://www.collegefinancialaidguide.com/assets/colleges/images/116/Logo.jpg"; width="150"; height="150"; id="bastyr"> </a></p> 
+
+		<p><a href="http://www.pacificcollege.edu/" target="_blank"><img src="https://sp.yimg.com/ib/th?id=OIP.M3e949c2ea34330d37beccbceb03aa235o0&pid=15.1"; id="pcom">  </a></p>
+
+	</div>
+	
+
+
+	<script type="text/javascript">
+		var MyPix = document.getElementById("bnm");
+		function increasePictureSize() {
+		MyPix.width = "300";
+		MyPix.height = "150";}
+
+		document.getElementById("bnm").addEventListener("mouseover", increasePictureSize);
+	
+
+
+	var name = document.getElementByTagName('h2');
+	function changeColor() {
+		name.color = "Yellow";	
+	}	document.getElementsByTagName('h2').addEventListener("mouseover", changeColor);
+	</script>
+
+
+</body>
+
+<footer>
+	<p>
+	<form action = http://formspree.io/minnayoon@hotmail.com
+      method = "POST">
+	<select name = "title">
+		<option value = ""disabled selected>Please Select</option>
+		<option value = "Dr.">Dr.</option>
+		<option value = "Mr.">Mr.</option>
+		<option value = "Mrs.">Mrs.</option>
+		<option value = "Ms.">Ms.</option>
+	</select>
+	<input name = "username" type = "text" value = "Name">
+	<p>
+		<input textarea = "doodle" type "textarea" value= "Write to me!">
+	</p>
+	</form>
+	</p>
+
+	</div>
+
+</footer>
+
+</html>

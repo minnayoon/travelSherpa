@@ -1,0 +1,55 @@
+header {
+	background-color: Chocolate;
+	text-align: left;
+}
+
+body {
+	background-color:  Chocolate;
+}
+
+.Left {
+	float: left;
+	width:  18%;
+}
+
+.Right {
+	float: right;
+	width:  25%;
+	background-color: Black;
+	background-size: 45px;
+	text-align: center;
+	padding-right:  15px;
+	
+
+}
+
+.Content	{
+	width: 50%;
+	float: center;
+	font-weight:  bold;
+
+}
+
+h1 {
+	position: absolute;
+	top: 190px;
+	left: 15px;
+	width: 100%;
+	color:  Chocolate;	
+	line-height: 1.4em;	
+	font-family: serif;
+}
+
+h2 {
+	font-color:maroon;
+}
+
+footer {
+	text-align: center;
+
+}
+
+
+
+
+
