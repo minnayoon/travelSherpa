@@ -1,0 +1,28 @@
+head {
+	text-align: center;
+
+}
+body {
+	background-color: Beige; 
+	text-align: center;
+	font-size: 24px;
+}
+
+#Location {
+	font-size:  32px;
+	font-weight: bold;
+	font-color: DarkGrey;
+}
+
+
+#Map {
+	padding-top: 20px;
+}
+button {
+	width: 100px;
+	height:  30px;
+	background-color: Yellow;
+	font-color:  Black;
+	font-weight: bold;
+
+}
